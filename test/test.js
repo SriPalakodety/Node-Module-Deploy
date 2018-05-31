@@ -3,7 +3,7 @@
 var expect = require("chai").expect;
 var addCommasToNumbers = require("../index");
 
-describe("#numFormatter.addCommasToNumbers", function() {
+describe("#numFormatter addCommasToNumbers", function() {
   it("should convert single digits", function() {
     var result = addCommasToNumbers(1);
     expect(result).to.equal("1");
