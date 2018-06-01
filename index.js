@@ -7,7 +7,8 @@
  * @return {string}
  */
 
-function addCommasToNumbers(number, locale) {
+const addCommasToNumbers = (number, locale) => {
   return number.toLocaleString(locale);
-}
+};
+
 module.exports = addCommasToNumbers;
